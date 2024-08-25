@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>D'Vine Estate</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favIcon_DE.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">D'Vine</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <a href="https://maps.app.goo.gl/jEtTwQt5XgH6AzP56" target="_blank">
+          <span class="span">
+            D'Vine Estate, 53011, Castellina Tuscany, Italy
+          </span>
+        </a>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Friday : 7.00 pm to 9.00 pm</span>
+      </div>
+
+      <a href="tel:+27670096591" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+27 67 009 6591</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:info@dvine.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">info@dvine.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo/logo1.png" width="160" height="50" alt="Grilli - Home" style="padding-left: 50px;" >
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo/logo1.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#res" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Reservations</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+          <a href="https://maps.app.goo.gl/jEtTwQt5XgH6AzP56" target="_blank">
+            <address class="body-4">
+              D'Vine Estate, 53011, Castellina <br>
+              Tuscany, Italy
+            </address>
+          </a>
+          <p class="body-4 navbar-text">Open: 7.00 pm - 9.00pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">info@dvine.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +27 67 009 6591
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="./assets/images/menu/D'Vine Estate Menu 2024.pdf" class="btn btn-secondary" download>
+        <span class="text text-1">Download Menu</span>
+
+        <span class="text text-2" aria-hidden="true">Download Menu</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero-1.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Vineyard</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where vines thrive, <br>faith and tradition grow
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Harvesting excellence from soil to soul
+            </p>
+
+            <a href="#about" class="btn btn-primary slider-reveal">
+              <span class="text text-1">About Us</span>
+
+              <span class="text text-2" aria-hidden="true">About Us</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero-6.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Winery</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Crafting every bottle with <br>devotion and grace
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Blending passion, purity, and purpose
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Collection</span>
+
+              <span class="text text-2" aria-hidden="true">View Collection</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero-4.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Restaurant</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              A taste of Italy, faith, <br>and family
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Where every flavor tells a story
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">who we are</p>
+
+            <h2 class="headline-1 section-title">Our D'Vine Excellence</h2>
+
+            <p class="section-text">
+              D'Vine Estate, where tradition and innovation blend harmoniously to create exquisite wines and the best food in Tuscany. 
+              Our journey began long ago, rooted in a deep respect for the land. 
+              Our wines and food embody the qualities of the spirit. 
+              We invite you to savor the unique flavors and<br>experience the timeless legacy.
+            </p>
+
+            <div class="contact-label">Where Tradition Meets</div>
+
+            <a href="#" class="body-1 contact-number hover-underline">Timeless Craftsmanship</a>
+
+            <a href="#restaurant" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about/about-big.png" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about/about-small.png" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label" id="restaurant" >
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/restaurant/restBanner.png" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Restaurant</p>
+
+            <h2 class="headline-1 section-title">Italian Excellence</h2>
+
+            <p class="section-text">
+              Our In-House restaurant offers an exceptional dining experience that showcases 
+              the freshest ingredients and finest culinary techniques. Enjoy dishes expertly crafted to complement 
+              our wines, in a setting that celebrates the beauty and bounty of the land.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-1">Paired With Our</del>
+
+              <span class="span body-1">Fine Wine</span>
+            </div>
+
+            <a href="#menu" class="btn btn-primary">
+              <span class="text text-1">View Our Specials</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Specials</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Dinner For Two</p>
+
+          <h2 class="headline-1 section-title text-center">This Weeks Special</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/meals/1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pane dell'Abbondanza</a>
+                    </h3>
+
+                    <span class="badge label-1">Starter</span>
+
+                    <span class="span title-2">Gal313</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Bruschetta with toppings of juicy tomatoes and melted cheese or 
+                    creamy mayo with tender chicken.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              
+            </li>
+
+            <li>
+              
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/meals/2.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Alfredo D'Vine</a>
+                    </h3>
+
+                    <span class="badge label-1">Main</span>
+
+                    <span class="span title-2">Col114</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Our signature Chicken Fettuccine Alfredo. Rich and velvety. Tender chicken. Paired with crunchy bruschetta.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/meals/3.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Annata Graziosa</a>
+                    </h3>
+
+                    <span class="badge label-1">Collection</span>
+
+                    <span class="span title-2">Heb926</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vino Bianco: Hints of citrus and green apple.<br>
+                    Vino Rosso: Notes of dark berries and spice.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Dinner for Two <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="./assets/images/menu/D'Vine Estate Menu 2024.pdf" class="btn btn-primary" download >
+            <span class="text text-1">Detailed Menu</span>
+
+            <span class="text text-2" aria-hidden="true">Detailed Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testBG/testBG.png')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Ohhhh Lord...Guys this place is FLAMES. D'Vine Estate serves thee best stuff you will ever have.
+            I usually prefer chinese food but I have to say D'Vine Estate proves that Italy wins over China anyday<br>
+            Absolute Flames!!! Thank You Jesus
+
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/test/shane.png" width="100" height="100" loading="lazy" alt="Shane Naidoo"
+              class="img">
+
+            <p class="label-2 profile-name">Shane Naidoo</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="res">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+27670096591" class="link">+27 67 009 6591</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">2 Person</option>
+                    <option value="2-person">1 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book Now</span>
+
+                <span class="text text-2" aria-hidden="true">Book Now</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+27670096591" class="body-1 contact-number hover-underline">+27 67 009 6591</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                D'Vine Estate, 53011, Castellina Tuscany, Italy
+              </address>
+
+              <p class="contact-label">This Weeks Special</p>
+
+              <p class="body-4">
+                Dinner For Two
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Fridays <br>
+                07.00 pm - 9.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strengths</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Food & Drink</h3>
+
+                <p class="label-1 card-text">Perfect Italian food, paired with our fine wines</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                <p class="label-1 card-text"> A perfect combination of Class and Elegance</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                <p class="label-1 card-text">We have two of the most telented chefs in the world.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/vectors/cross.png" style="width: 80px; height: 80px"  loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Jesus</h3>
+
+                <p class="label-1 card-text">We Love Jesus<br>because He first loved us</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo/logo1.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            D'Vine Estate, 53011, Castellina Tuscany, Italy
+          </address>
+
+          <a href="mailto:info@dvine.com" class="body-4 contact-link">info@dvine.com</a>
+
+          <a href="tel:+27 67 009 6591" class="body-4 contact-link">Booking Request : +27 67 009 6591</a>
+
+          <p class="body-4">
+            Fridays : 19h00 - 21h00
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Come and Join us</p>
+
+          <p class="label-1">
+            Emmanuel Outreach Centre Youth<br><span class="span">COOKOUT 2024</span>
+          </p>
+
+          
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">About</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Menu</a>
+          </li>
+
+          <li>
+            <a href="#res" class="label-2 footer-link hover-underline">Reservations</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.instagram.com/d_vinestate/" class="label-2 footer-link hover-underline" target="_blank" >Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/jEtTwQt5XgH6AzP56" class="label-2 footer-link hover-underline" target="_blank">Google Maps</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 D'Vine Estate. All Rights Reserved | Designed by <a href="https://icarusdigimarketing.com"
+            target="_blank" class="link">Icarus Digital Margeting (Pty) Ltd.</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
