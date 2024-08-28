@@ -187,7 +187,7 @@
 
       </nav>
 
-      <a href="./assets/images/menu/D'VineEstate_Menu.pdf" class="btn btn-secondary" download>
+      <a href="./assets/images/menu/D'Vine Estate Menu 2024.pdf" class="btn btn-secondary" download>
         <span class="text text-1">Download Menu</span>
 
         <span class="text text-2" aria-hidden="true">Download Menu</span>
@@ -283,7 +283,7 @@
               Where every flavor tells a story
             </p>
 
-            <a href="./assets/images/menu/D'VineEstate_Menu.pdf" class="btn btn-primary slider-reveal">
+            <a href="#menu" class="btn btn-primary slider-reveal">
               <span class="text text-1">View Our Menu</span>
 
               <span class="text text-2" aria-hidden="true">View Our Menu</span>
@@ -301,7 +301,7 @@
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <a href="#" class="hero-btn has-after">
+        <a href="#res" class="hero-btn has-after">
           <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
 
           <span class="label-2 text-center span">Book A Table</span>
@@ -538,7 +538,7 @@
             Dinner for Two <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
           </p>
 
-          <a href="./assets/images/menu/D'VineEstate_Menu.pdf" class="btn btn-primary" download >
+          <a href="./assets/images/menu/D'Vine Estate Menu 2024.pdf" class="btn btn-primary" download >
             <span class="text text-1">Detailed Menu</span>
 
             <span class="text text-2" aria-hidden="true">Detailed Menu</span>
@@ -560,7 +560,7 @@
         - #TESTIMONIALS
       -->
 
-      <section id="testimonials" class="section testi text-center has-bg-image"
+      <section class="section testi text-center has-bg-image"
         style="background-image: url('./assets/images/testBG/testBG.png')" aria-label="testimonials">
         <div class="container">
 
@@ -602,7 +602,9 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form action="https://api.web3forms.com/submit" class="form-left" method="POST" >
+
+              <input type="hidden" name="access_key" value="60d9fc4f-8853-4c12-9148-80ef9e25c2fb">
 
               <h2 class="headline-1 text-center">Online Reservation</h2>
 
@@ -612,9 +614,9 @@
               </p>
 
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field" required >
 
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field" required >
               </div>
 
               <div class="input-wrapper">
@@ -623,8 +625,8 @@
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
                   <select name="person" class="input-field">
-                    <option value="1-person">2 Person</option>
-                    <option value="2-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="1-person">1 Person</option>
                     <option value="3-person">3 Person</option>
                     <option value="4-person">4 Person</option>
                     <option value="5-person">5 Person</option>
@@ -638,7 +640,7 @@
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
 
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="reservation-date" class="input-field" required >
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
@@ -670,6 +672,7 @@
               </div>
 
               <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <input type="hidden" name="redirect" value="https://dvinestate.github.io/site/assets/tyPage/tyPage.html" >
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book Now</span>
